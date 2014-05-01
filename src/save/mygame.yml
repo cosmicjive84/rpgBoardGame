@@ -1,0 +1,97 @@
+---
+- !ruby/object:Hero
+  stats:
+    :name: Tom
+    :h_class: Fighter
+    :level: 1
+    :xp: 0
+    :hp: 10
+    :gold: 0
+    :initiative: 0
+    :player: 1
+  equipment:
+    :main_h: &1 !ruby/object:Item
+      properties:
+        :name: Longsword
+        :dice:
+        - W_ATK
+        - W_ATK
+        :weapon: 'true'
+        :value: 0
+        :slot: main_h
+    :off_h: &2 !ruby/object:Item
+      properties:
+        :name: Shield
+        :dice:
+        - W_DEF
+        :armor: 'true'
+        :slot: off_h
+    :body: &3 !ruby/object:Item
+      properties:
+        :name: Cloth Armor
+        :dice:
+        - W_DEF
+        :armor: 'true'
+        :slot: body
+  inventory:
+  - *1
+  - *2
+  - *3
+- !ruby/object:Hero
+  stats:
+    :name: Steve
+    :h_class: Wizard
+    :level: 1
+    :xp: 0
+    :hp: 5
+    :gold: 0
+    :initiative: 0
+    :player: 2
+  equipment:
+    :main_h: !ruby/object:Item
+      properties:
+        :name: empty
+    :off_h: !ruby/object:Item
+      properties:
+        :name: empty
+    :body: !ruby/object:Item
+      properties:
+        :name: empty
+  inventory:
+  - !ruby/object:Item
+    properties:
+      :name: Dagger
+      :dice:
+      - W_ATK
+      :weapon: 'true'
+      :value: 0
+      :slot: main_h
+- !ruby/object:Hero
+  stats:
+    :name: Will
+    :h_class: Rogue
+    :level: 1
+    :xp: 0
+    :hp: 7
+    :gold: 0
+    :initiative: 0
+    :player: 3
+  equipment:
+    :main_h: !ruby/object:Item
+      properties:
+        :name: empty
+    :off_h: !ruby/object:Item
+      properties:
+        :name: empty
+    :body: !ruby/object:Item
+      properties:
+        :name: empty
+  inventory:
+  - !ruby/object:Item
+    properties:
+      :name: Shortsword
+      :dice:
+      - W_ATK
+      :weapon: 'true'
+      :value: 0
+      :slot: main_h

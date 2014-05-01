@@ -1,0 +1,29 @@
+--- !ruby/object:Hero
+stats:
+  :name: Steve
+  :h_class: Wizard
+  :level: 1
+  :xp: 0
+  :hp: 5
+  :gold: 0
+  :initiative: 0
+  :player: 2
+equipment:
+  :main_h: !ruby/object:Item
+    properties:
+      :name: empty
+  :off_h: !ruby/object:Item
+    properties:
+      :name: empty
+  :body: !ruby/object:Item
+    properties:
+      :name: empty
+inventory:
+- !ruby/object:Item
+  properties:
+    :name: Dagger
+    :dice:
+    - W_ATK
+    :weapon: 'true'
+    :value: 0
+    :slot: main_h

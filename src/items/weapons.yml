@@ -1,0 +1,38 @@
+---
+:name: Longsword
+:dice:
+- W_ATK
+- W_ATK
+:weapon: 'true'
+:value: 10
+:slot: main_h
+---
+:name: Fire Fist
+:dice:
+- FIRE_DIE
+:weapon: 'true'
+:value: 15
+:slot: off_h
+---
+:name: Dagger
+:dice:
+- W_ATK
+:weapon: 'true'
+:value: 3
+:slot: main_h
+---
+:name: Shortsword
+:dice:
+- W_ATK
+:weapon: 'true'
+:value: 5
+:slot: main_h
+---
+:name: Battle-Axe
+:dice:
+- W_ATK
+- W_ATK
+- W_ATK
+:weapon: 'true'
+:value: 25
+:slot: main_h
