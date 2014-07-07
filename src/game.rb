@@ -78,9 +78,8 @@ class Game
 
 end
 
-# g = Game.new
-# g.start_game
+g = Game.new
+g.start_game
 
-
-SL.saveWeapon(Item::BATTLE_AXE)
+#SL.saveWeapon(Item::BATTLE_AXE)
 
