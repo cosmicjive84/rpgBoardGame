@@ -46,6 +46,7 @@ module Interface
 
 	def blackSmithMenu
 		puts blackSmithMenuText
+		town_menu
 	end
 
 	def arena_menu

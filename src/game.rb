@@ -68,7 +68,7 @@ class Game
 	end
 
 	def ai_choose_target
-		t = @battle_order.select{|char| char.player?}
+		t = @battle_order.select{|char| char.player? && char.alive?}
 		return t.sample
 	end
 
